@@ -33,13 +33,33 @@
     .sidebarRight {
         background-color: #171233;
         width: 300px;
-        
+
         .sidebarTop {
             color: #ffffff;
             display: flex;
             align-items: center;
             justify-content: space-between;
             padding: 20px;
+        }
+
+        .sidebarChannels {
+            padding: 13px;
+
+            .sidebarChannelsHeader {
+                color: white;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 5px;
+            }
+
+            .sidebarHeader {
+                display: flex;
+            }
+
+            .sidebarAddIcon {
+                cursor: pointer;
+            }
         }
     }
 }
